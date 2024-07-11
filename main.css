@@ -1,0 +1,47 @@
+body{
+  background: orange;
+}
+
+.boxs{
+  border: 2px solid white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  background: white;
+  width: 20px;
+  height: 50px;
+  margin: 5px;
+  animation: boox 500ms  500ms ease;
+  transition: all 500ms ease;
+}
+@keyframes boox{
+  from{
+    height: 60px;
+
+  }
+  to{
+    height: 120px;
+  }
+}
+
+.box1{
+  animation-delay: 250ms;
+}
+
+.box2{
+  animation-delay:450ms;
+}
+.box3{
+  animation-delay: 600ms;
+}
+.box4{
+  animation-delay: 850ms;
+}
+.box5{
+  animation-delay:1000ms;
+}
